@@ -1,4 +1,18 @@
 #!/bin/bash
-count=$(grep -i "python"  inflating: question_tags.csv | wc -l)
-echo "Number of lines containing 'python' in CSV files: $count"
+grep -i "python" *.csv | wc -l > _output/python_count.txt
+echo "Python count saved to _output/python_count.txt"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
